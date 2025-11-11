@@ -2,6 +2,7 @@ import sys
 import json
 
 REQUIRED_KEYS = (
+    "ts",
     "agent_id",
     "hostname",
     "status",
@@ -9,6 +10,8 @@ REQUIRED_KEYS = (
     "mem_pct",
     "last_checkin_sec",
 )
+
+########################################
 
 def get_unhealthy_reasons(entry):
     reasons = []
@@ -35,6 +38,8 @@ def get_unhealthy_reasons(entry):
         pass
 
     return reasons
+########################################
+
 
 def main():
     if len(sys.argv) != 2:
@@ -64,13 +69,14 @@ def main():
             if reasons:
                 reason_str = ",".join(reasons)
                 log_str = (
+                    f"timestamp={entry['ts']} "
                     f"hostname={entry['hostname']} "
                     f"agent_id={entry['agent_id']} "
                     f"reasons={reason_str}"
                 )
                 unhealthy.append(log_str)
 
-    for row in sorted(unhealthy, key=lambda x: x.split()[0].split("=")[1]):
+    for row in sorted(unhealthy, key=lambda x: x.split()[1].split("=")[1]):
         print(row)
 
 if __name__ == "__main__":
