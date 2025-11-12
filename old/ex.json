@@ -1,0 +1,11 @@
+[
+  {"service": "auth", "status": "ok"},
+  {"service": "ingest", "status": "failed"},
+  {"service": "ui", "status": "ok"},
+  {"service": "ingest", "status": "failed"},
+  {"service": "ui", "status": "ok"},
+  {"service": "foo", "status": "error"},
+  {"service": "foo", "status": "error"},
+  {"service": "foo", "status": "error"},
+  {"service": "boob", "status": "poo"}
+]
