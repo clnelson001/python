@@ -1,0 +1,9 @@
+{"ts":"2025-11-12T10:00:00Z","hostname":"web-01","agent_id":"a1","threat_id":"t-9","sha256":"AAA","severity":"low","confidence":62}
+{"ts":"2025-11-12T10:05:30Z","hostname":"web-01","agent_id":"a1","threat_id":"t-9","sha256":"AAA","severity":"high","confidence":80}
+{"ts":"2025-11-12T10:12:00Z","hostname":"web-01","agent_id":"a1","threat_id":"t-9","sha256":"AAA","severity":"medium","confidence":70}
+{"ts":"2025-11-12T10:14:59Z","hostname":"db-01","agent_id":"b7","threat_id":null,"sha256":"BBB","severity":"medium","confidence":55}
+{"ts":"2025-11-12T10:22:00Z","hostname":"db-01","agent_id":"b7","threat_id":null,"sha256":"BBB","severity":"critical","confidence":90}
+{"ts":"2025-11-12T10:26:15Z","hostname":"db-01","agent_id":"b7","threat_id":null,"sha256":"BBB","severity":"high","confidence":85}
+{"ts":"2025-11-12T10:40:00Z","hostname":"web-02","agent_id":"c3","threat_id":"t-42","sha256":null,"severity":"low","confidence":50}
+{oops!--}
+{"ts":"2025-11-12T10:45:00Z","hostname":"web-02","agent_id":"c3","threat_id":"t-42","sha256":null,"severity":"critical","confidence":88}

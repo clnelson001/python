@@ -1,0 +1,6 @@
+[
+    {"host": "node1", "status": "ok"},
+    {"host": "node2", "status": "error"},
+    {"host": "node1", "status": "error"},
+    {"host": "node3", "status": "ok"}
+]

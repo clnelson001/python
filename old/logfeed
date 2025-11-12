@@ -1,0 +1,7 @@
+{"ts":"2025-11-12T00:03:00Z","agent_id":"a1","status":"ok"}
+{"ts":"2025-11-12T10:03:00Z","agent_id":"a2","status":"error"}
+{"ts":"2025-11-12T09:55:00Z","agent_id":"a3","status":"ok"}
+{"ts":"2025-10-12T10:00:30Z","agent_id":"a4","status":"error"}
+{"ts":"2025-10-12T10:00:30Z","agent_id":"a5","status":"error"}
+{"ts":"2025-10-12T10:00:30Z","agent_id":"a6","status":"error"}
+{"ts":"2025-11-12T10:00:30Z","agent_id":"a7","status":"error"}
